@@ -14,8 +14,10 @@ Pro（CPU_desgin_Pro）版本相对于base（CPU_design)版本增加较为复杂
 
 ![image](https://github.com/ICscholar/CPU-design-verilog/blob/main/CPU_structure.png)
 ![image](https://github.com/ICscholar/CPU-design-verilog/blob/main/hierarchy.png)
+
 This is the structure of basic CPU with calculating functions, without an RAM so all instuctions should be input by users in design files, easy to debug and compell.
 
 ![image](https://github.com/ICscholar/CPU-design-verilog/blob/main/cpu_structure_pro.png)
 ![image](https://github.com/ICscholar/CPU-design-verilog/blob/main/hierarchy_pro.png)
+
 This is the sturcture of plus version CPU with RAM. All instruction will be used are in the RAM referred to ram.v
