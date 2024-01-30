@@ -1,0 +1,359 @@
+
+*** Running vivado
+    with args -log ram_cpu.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram_cpu.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ram_cpu.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.273 ; gain = 161.449
+Command: read_checkpoint -auto_incremental -incremental D:/Downloads/CPU_design_v8.0/project_4.srcs/utils_1/imports/synth_1/cpu.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Downloads/CPU_design_v8.0/project_4.srcs/utils_1/imports/synth_1/cpu.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ram_cpu -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32872
+INFO: [Synth 8-11241] undeclared symbol 'en_reg_load', assumed default net type 'wire' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:49]
+INFO: [Synth 8-11241] undeclared symbol 'en_store_pulse', assumed default net type 'wire' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:50]
+INFO: [Synth 8-11241] undeclared symbol 'alu_in_sel', assumed default net type 'wire' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:52]
+INFO: [Synth 8-11241] undeclared symbol 'en_load_pulse', assumed default net type 'wire' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:66]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2313.281 ; gain = 410.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ram_cpu' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'data_path' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/data_path.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pc' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/pc.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/pc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'datapc' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/datapc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'datapc' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/datapc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'addrselector' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/addrselector.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'addrselector' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/addrselector.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_group' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/reg_group.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'register' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/register.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/reg_group.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'reg_group' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/reg_group.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_mux' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/alu_mux.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'alu_mux' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/alu_mux.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/alu.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/alu.v:14]
+INFO: [Synth 8-6157] synthesizing module 'water_led' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/water_led.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'water_led' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/water_led.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'data_path' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/data_path.v:1]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/control_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ir' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/ir.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ir' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/ir.v:1]
+INFO: [Synth 8-6157] synthesizing module 'state_transition' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:92]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:193]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:335]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:369]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:395]
+INFO: [Synth 8-6155] done synthesizing module 'state_transition' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/control_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ram' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/new/ram.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/new/ram.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ram_cpu' (0#1) [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/new/ram_cpu.v:3]
+WARNING: [Synth 8-7137] Register ram_reg in module ram has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "ram_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port cz_flag[1] in module pc is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2413.949 ; gain = 511.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2431.879 ; gain = 529.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2431.879 ; gain = 529.176
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2431.879 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Downloads/CPU_design_v8.0/project_4.srcs/constrs_3/new/constrain.xdc]
+Finished Parsing XDC File [D:/Downloads/CPU_design_v8.0/project_4.srcs/constrs_3/new/constrain.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Downloads/CPU_design_v8.0/project_4.srcs/constrs_3/new/constrain.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ram_cpu_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ram_cpu_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2544.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2544.555 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'state_transition'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 Initial |                 0000000000000001 |                             0000
+                   Fetch |                 0000000000000010 |                             0001
+                  Decode |                 0000000000000100 |                             0010
+             Execute_Mov |                 0000000000001000 |                             0011
+             Execute_Add |                 0000000000010000 |                             0100
+             Execute_Sub |                 0000000000100000 |                             0101
+             Execute_Mul |                 0000000001000000 |                             0110
+             Execute_Div |                 0000000010000000 |                             0111
+           Execute_Store |                 0000000100000000 |                             1001
+ Execute_GetDataAndStore |                 0000001000000000 |                             1010
+            Execute_Comp |                 0000010000000000 |                             1011
+            Execute_Load |                 0000100000000000 |                             1100
+  Execute_GetDataAndLoad |                 0001000000000000 |                             1000
+              Execute_rs |                 0010000000000000 |                             1101
+            Execute_Jump |                 0100000000000000 |                             1110
+              Write_back |                 1000000000000000 |                             1111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'state_transition'
+WARNING: [Synth 8-327] inferring latch for variable 'en_fetch_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:182]
+WARNING: [Synth 8-327] inferring latch for variable 'en_group_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:183]
+WARNING: [Synth 8-327] inferring latch for variable 'en_pc_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:184]
+WARNING: [Synth 8-327] inferring latch for variable 'en_datapc_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:186]
+WARNING: [Synth 8-327] inferring latch for variable 'en_load_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:189]
+WARNING: [Synth 8-327] inferring latch for variable 'en_store_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:190]
+WARNING: [Synth 8-327] inferring latch for variable 'pc_ctrl_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:185]
+WARNING: [Synth 8-327] inferring latch for variable 'stateofreg_en_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:336]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_func_reg' [D:/Downloads/CPU_design_v8.0/project_4.srcs/sources_1/imports/code4/state_transition.v:188]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   17 Bit       Adders := 1     
+	   3 Input   17 Bit       Adders := 1     
+	   3 Input    7 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 78    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 14    
+	   4 Input   16 Bit        Muxes := 1     
+	  16 Input   16 Bit        Muxes := 1     
+	  14 Input   16 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 2     
+	  16 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	  16 Input    2 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 77    
+	   8 Input    1 Bit        Muxes := 1     
+	  16 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP alu1/alu_out0, operation Mode is: A*B.
+DSP Report: operator alu1/alu_out0 is absorbed into DSP alu1/alu_out0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|alu         | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|alu         | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   174|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |    65|
+|5     |LUT2    |    94|
+|6     |LUT3    |   545|
+|7     |LUT4    |   100|
+|8     |LUT5    |    39|
+|9     |LUT6    |   496|
+|10    |MUXF7   |   129|
+|11    |MUXF8   |    64|
+|12    |FDCE    |   277|
+|13    |FDPE    |     1|
+|14    |FDRE    |  1040|
+|15    |LD      |     4|
+|16    |LDC     |    11|
+|17    |IBUF    |     3|
+|18    |OBUF    |    10|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2544.555 ; gain = 641.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 2544.555 ; gain = 529.176
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2544.555 ; gain = 641.852
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 2544.555 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 383 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2544.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 15 instances were transformed.
+  LD => LDCE: 4 instances
+  LDC => LDCE: 11 instances
+
+Synth Design complete | Checksum: 99495dfb
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2544.555 ; gain = 1052.430
+INFO: [Common 17-1381] The checkpoint 'D:/Downloads/CPU_design_v8.0/project_4.runs/synth_1/ram_cpu.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ram_cpu_utilization_synth.rpt -pb ram_cpu_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 16:43:44 2023...
