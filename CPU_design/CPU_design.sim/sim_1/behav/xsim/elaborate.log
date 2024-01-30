@@ -1,0 +1,17 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/VIVADO/vivado/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_alu_mux_behav xil_defaultlib.tb_alu_mux xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'offset' [D:/DigitalLogic/lab/CPU_design/CPU_design.srcs/sim_1/new/tb_alu_mux.v:29]
+WARNING: [VRFC 10-3705] select index 7 into 'offset' is out of bounds [D:/DigitalLogic/lab/CPU_design/CPU_design.srcs/sources_1/new/alu_mux.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu_mux
+Compiling module xil_defaultlib.tb_alu_mux
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_alu_mux_behav

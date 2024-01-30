@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/addrselector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addrselector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/alu_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/datapc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/ir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ir
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/new/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/new/ram_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/reg_group.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_group
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/imports/code4/state_transition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_transition
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sources_1/new/water_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module water_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.srcs/sim_1/new/tb_ram_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ram_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/CPU_design_v8.1/project_4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

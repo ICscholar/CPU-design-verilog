@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/imports/code4/addrselector.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/alu.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/alu_mux.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/control_unit.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/data_path.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/datapc.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/ir.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/pc.v" \
+"../../../../project_4.srcs/sources_1/imports/new/ram.v" \
+"../../../../project_4.srcs/sources_1/new/ram_cpu.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/reg_group.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/register.v" \
+"../../../../project_4.srcs/sources_1/imports/code4/state_transition.v" \
+"../../../../project_4.srcs/sources_1/new/water_led.v" \
+"../../../../project_4.srcs/sim_1/new/tb_ram_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 30 14:31:36 2024
+# Process ID: 18904
+# Current directory: C:/Users/Xinyang/Desktop/CPU_design/CPU_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13180 C:\Users\Xinyang\Desktop\CPU_design\CPU_design\CPU_design.xpr
+# Log file: C:/Users/Xinyang/Desktop/CPU_design/CPU_design/vivado.log
+# Journal file: C:/Users/Xinyang/Desktop/CPU_design/CPU_design\vivado.jou
+#-----------------------------------------------------------
+start_gui

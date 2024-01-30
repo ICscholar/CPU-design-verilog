@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ram_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ram_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/tb_ram_cpu/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/en_group_pulse" type="logic">
+      <obj_property name="ElementShortName">en_group_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_group_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/pc_ctrl" type="array">
+      <obj_property name="ElementShortName">pc_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/reg_group1/reg0/d" type="array">
+      <obj_property name="ElementShortName">d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/rs" type="array">
+      <obj_property name="ElementShortName">rs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/ir1/ir_out" type="array">
+      <obj_property name="ElementShortName">ir_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/offset_addr" type="array">
+      <obj_property name="ElementShortName">offset_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/alu1/alu_func" type="array">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/reg_group1/reg_en" type="array">
+      <obj_property name="ElementShortName">reg_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/reg_group1/rd_q" type="array">
+      <obj_property name="ElementShortName">rd_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/offset" type="array">
+      <obj_property name="ElementShortName">offset[6:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/alu1/alu_a" type="array">
+      <obj_property name="ElementShortName">alu_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/alu1/alu_b" type="array">
+      <obj_property name="ElementShortName">alu_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/alu1/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/rd" type="array">
+      <obj_property name="ElementShortName">rd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/reg_group1/rs_q" type="array">
+      <obj_property name="ElementShortName">rs_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/en_fetch_pulse" type="logic">
+      <obj_property name="ElementShortName">en_fetch_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_fetch_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/stateofreg_en" type="array">
+      <obj_property name="ElementShortName">stateofreg_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stateofreg_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/en_load_pulse" type="logic">
+      <obj_property name="ElementShortName">en_load_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_load_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/en_datapc_pulse" type="logic">
+      <obj_property name="ElementShortName">en_datapc_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_datapc_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/control_unit1/state_transition1/en_pc_pulse" type="logic">
+      <obj_property name="ElementShortName">en_pc_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_pc_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/ram_1/loaddata" type="array">
+      <obj_property name="ElementShortName">loaddata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">loaddata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/reg_group1/reg0/q" type="array">
+      <obj_property name="ElementShortName">q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/ram_1/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/datapc1/datapc_out" type="array">
+      <obj_property name="ElementShortName">datapc_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">datapc_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/data_path1/pc1/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/ram_1/storedata" type="array">
+      <obj_property name="ElementShortName">storedata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">storedata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_cpu/test_ram_cpu/ram_1/ram[10]" type="array">
+      <obj_property name="ElementShortName">[10][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+   </wvobject>
+</wave_config>
