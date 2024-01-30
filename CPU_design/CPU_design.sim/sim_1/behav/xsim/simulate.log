@@ -1,4 +1,0 @@
-Time resolution is 1 ps
-Test Case 1 -alu_a:1010101010101010,alu_b:0101010101010101,en_out:1
-Test Case 2-alu_a:1111000011110000,alu_b:0000111100001111,en_out:1
-$finish called at time : 60 ns : File "D:/DigitalLogic/lab/CPU_design/CPU_design.srcs/sim_1/new/tb_alu_mux.v" Line 65
